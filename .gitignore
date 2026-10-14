@@ -1,0 +1,46 @@
+# ===== Python =====
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.uv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Environments / secrets =====
+.env
+.env.*
+
+# ===== Testing / coverage =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editors / IDEs =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Logs / misc =====
+*.log
+nltk_data/

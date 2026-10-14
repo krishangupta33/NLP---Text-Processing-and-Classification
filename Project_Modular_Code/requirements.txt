@@ -1,0 +1,24 @@
+# Tested with Python 3.12 (see README - Option A for the fast uv setup)
+#
+# NOTE: These are the modern versions verified working with this code
+# (Engine.py / predict.py / Source/). They replace the original 2021-era
+# pins below, which required exactly Python 3.8 and no longer install
+# on modern Python.
+#
+# The original pins were:
+#   nltk==3.6.3, pandas==1.3.0, scikit_learn==1.0, matplotlib==3.4.2,
+#   seaborn==0.11.2, openpyxl==3.0.9
+#
+# Caveat for the *notebooks* (model.ipynb / linear_model.ipynb):
+# they call vect.get_feature_names(), removed in scikit-learn 1.2.
+# Replace it with get_feature_names_out() to run the notebooks,
+# or use the original pins on Python 3.8.
+
+matplotlib==3.11.2
+nltk==3.10.3
+numpy==2.5.4
+openpyxl==3.1.5
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.18.1
+seaborn==0.13.2
