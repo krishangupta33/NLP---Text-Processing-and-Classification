@@ -22,3 +22,7 @@ pandas==3.0.6
 scikit-learn==1.9.1
 scipy==1.18.1
 seaborn==0.13.2
+
+# For running the notebook (linear_model.ipynb)
+ipykernel==7.4.0
+jupyter==1.1.1
